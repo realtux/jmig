@@ -1,0 +1,28 @@
+{
+    "name": "jmig",
+    "type": "module",
+    "author": "Brian Seymour <@realtux>",
+    "version": "0.0.1",
+    "description": "database agnostic migrations manager",
+    "license": "MIT",
+    "homepage": "https://github.com/realtux/jmig",
+    "main": "lib/index.js",
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/realtux/jmig.git"
+    },
+    "bin": {
+        "exajs": "./bin/jmig.js"
+    },
+    "exports": {
+        ".": "./lib/index.js"
+    },
+    "dependencies": {
+        "chalk": "5.3.0",
+        "dotenv": "16.4.5",
+        "luxon": "3.4.4",
+        "mysql2": "3.10.1",
+        "pg": "8.12.0",
+        "sqlite3": "5.1.7"
+    }
+}
