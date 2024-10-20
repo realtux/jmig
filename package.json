@@ -2,7 +2,7 @@
     "name": "jmig",
     "type": "module",
     "author": "Brian Seymour <@realtux>",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "description": "database agnostic migrations manager",
     "license": "MIT",
     "homepage": "https://github.com/realtux/jmig",
